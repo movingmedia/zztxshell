@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget
+    id="io.cordova.helloCordova"
+    version="2.0.0"
+    xmlns="http://www.w3.org/ns/widgets" >
+
+    <name>
+Hello Cordova
+    </name>
+
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+
+    <author
+        email="dev@cordova.apache.org"
+        href="http://cordova.io" >
+        Apache Cordova Team
+    </author>
+
+    <!-- <content src="file:///android_asset/www/index.html" /> -->
+
+
+    <!-- 设置启动图，不好用-第一行設置為初始螢幕顯示的圖像。如果你命名您的圖像什麼除了 icon.png ，您需要修改這條線。 -->
+    <!-- <preference -->
+    <!-- name="splashscreen" -->
+    <!-- value="icon" /> -->
+
+
+    <!-- 设置启动图，不好用-第二行設置多久閃屏顯示以毫秒為單位的延遲。 遣散閃屏，一旦接收到 app deviceready 事件，調用 navigator.splashscreen.hide() 方法。 -->
+    <!-- <preference -->
+    <!-- name="splashScreenDelay" -->
+    <!-- value="10000" /> -->
+    <!-- <preference name="splashscreen" value="resourceName" /> -->
+    <!-- <preference name="backgroundColor" value="0xFFF" /> -->
+    <!-- <preference name="loadUrlTimeoutValue" value="20000" /> -->
+    <!-- <preference name="InAppBrowserStorageEnabled" value="true" /> -->
+    <!-- <preference name="disallowOverscroll" value="true" /> -->
+
+    <!-- <preference -->
+    <!-- name="useBrowserHistory" -->
+    <!-- value="true" /> -->
+    <!-- <preference -->
+    <!-- name="exit-on-suspend" -->
+    <!-- value="false" /> -->
+
+    <preference
+        name="fullscreen"
+        value="true" />
+    <preference
+        name="webviewbounce"
+        value="false" />
+
+    <!-- <access origin="*" /> -->
+
+
+    <feature name="App" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.App" />
+    </feature>
+    <feature name="Device" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="NetworkStatus" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Battery" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.batterystatus.BatteryListener" />
+    </feature>
+    <feature name="Accelerometer" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.devicemotion.AccelListener" />
+    </feature>
+    <feature name="Compass" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.deviceorientation.CompassListener" />
+    </feature>
+    <feature name="Geolocation" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.geolocation.GeoBroker" />
+    </feature>
+    <feature name="Camera" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="File" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.file.FileUtils" />
+    </feature>
+    <feature name="Capture" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
+    <feature name="Media" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <feature name="FileTransfer" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Notification" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Vibration" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <feature name="Contacts" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.contacts.ContactManager" />
+    </feature>
+    <feature name="Globalization" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="SplashScreen" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.splashscreen.SplashScreen" />
+    </feature>
+    <feature name="InAppBrowser" >
+        <param
+            name="android-package"
+            value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="UpdateApp" >
+        <param
+            name="android-package"
+            value="com.wymd.cordova.action.UpdateApp" />
+    </feature>
+
+</widget>

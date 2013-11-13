@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+
+    <string name="app_name">zztxshell</string>
+    <string name="soft_update_title">更新提示</string>
+    <string name="soft_update_info">客官!\n\n为您准备了更新、更炫的功能哦!</string>
+    <string name="soft_update_updatebtn">立即体验</string>
+    <string name="soft_update_later">以后再说</string>
+    <string name="soft_updating">正在下载</string>
+    <string name="update_progress">下载提示</string>
+    <string name="soft_update_cancel">取消下载</string>
+
+</resources>
